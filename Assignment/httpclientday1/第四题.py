@@ -22,8 +22,8 @@ class Man():
             print(f'士兵{self.name}用{item.name}开火，发射了{item.num}发子弹')
             item.fire_bullet(item.num)
         else:
-            item.fire_bullet(num)
             print(f'士兵{self.name}用{item.name}开火，发射了{num}发子弹')
+            item.fire_bullet(num)
         print(item)
     #方法2：给枪填子弹
     def add(self,item,num):
