@@ -1,0 +1,9 @@
+1、cookie存在本地，session存在服务器上
+2、cookie保存时间长（1天或1星期或更久），session保存时间比较短（5分钟，会随着会话的结束而删除）
+3、cookie和请求一起发送给服务端，cookie正确就可以访问成功---安全性比较低
+   session是服务器返回给客户端一个cookie，请求发送到服务器后会使用这个cookie找对应的session，可以对应上就请求成功，否则请求失败---安全性比较高
+4、cookie保存数据不能超过4k，很多浏览器限制一个站点最多20个cookie，session保存在服务端，不会存在这个问题
+5、访问用户过多时，session比较占服务器，影响性能
+6、session类型object，cookie类型string
+7、session保存重要信息，cookie保存不重要信息
+
