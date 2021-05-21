@@ -42,3 +42,7 @@ class TestMyFun(unittest.TestCase):
 if __name__ == '__main__':
     # test1 = TestMyFun()
     unittest.main(verbosity=2)
+    # suite = unittest.TestSuite()
+    # suite.addTest(TestMyFun('test_multi'))
+    # runner = unittest.TextTestRunner()
+    # runner.run(suite)
