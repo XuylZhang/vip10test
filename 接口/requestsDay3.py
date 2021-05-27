@@ -55,4 +55,3 @@ paramsdict = {"username":"xuyl","password":"123456"}
 # else:
 #     print('请求失败')
 
-
