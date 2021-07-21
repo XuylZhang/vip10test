@@ -16,7 +16,7 @@ with open(report_file,'r',encoding='utf-8') as f:
 print(report_data)
 
 kk = re.compile('开始时间 : </strong> (\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})</p>')
-# kk = re.compile('开始时间 : </strong>(.*?)</p>')
+kk = re.compile('开始时间 : </strong>(.*?)</p>')
 result = kk.findall(report_data)
 print(result)
 
